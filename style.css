@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.stopwatch {
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.counter {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-left: 2px;
+    margin-right: 410px;
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.button_list {
+    display: flex; 
+    gap: 5px;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.stopwatch_button {
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #00FF00;
+}
+
+#stop {
+    background-color: #DC143C;
+}
+
+#reset {
+    background-color: white;
+}
